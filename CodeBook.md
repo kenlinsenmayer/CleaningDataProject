@@ -4,9 +4,9 @@ Code Book for tidy_data.txt
 
 2 Subject   Subject number from 1 to 30
 
-3 - 83      Mean values aggregated for each Subject and Activity for the following features:
+Features 3 - 83  :  Arithmetic Mean values aggregated for each Subject and Activity across the following features:
 
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+    Note: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
@@ -27,6 +27,5 @@ Code Book for tidy_data.txt
 * fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are:
-
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
